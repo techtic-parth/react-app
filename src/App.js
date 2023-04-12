@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import FormsEx from './Component/FormsEx';
 import { Container } from "react-bootstrap";
+import FormsEx from './Component/FormsEx';
+import CountEx from './Component/CountEx';
 
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
     <div className="App">
       <Container>
         <FormsEx/>
+        <CountEx
+          countStart = {0}
+        /> 
       </Container>
     </div>
   );

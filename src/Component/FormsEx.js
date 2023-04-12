@@ -8,7 +8,7 @@ function FormsEx(){
                     <h1>Contact Form</h1>
                 </div>
                 <div className="card-body">
-                    <div class="col-md-12 ml-3 mt-4">
+                    <div className="col-md-12 ml-3 mt-4">
                         <form>
                             <div className="row">
                                 <div className="col-md-6">
